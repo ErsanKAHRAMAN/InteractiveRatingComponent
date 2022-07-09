@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121417;
+    color: #fff;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+   
+    
+
+    
+    
+}
+.rating-info{
+    background-color: #252d37;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 25px;
+    flex-basis: 70%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.rating-main{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #252d37;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.rating-main .rating-btn-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    
+    
+}
+.rating-main .rating-btn-info .rating-button{
+    
+    align-self: center;
+}
+
+.rating-main .rating-btn-info .rating-button a{
+    text-decoration: none;
+    color: #7c8798;
+    background-color: #4d5661;
+    border-radius: 100%;
+    padding: 11 17px;
+    border: 1px solid none;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    
+}
+.rating-main .rating-btn-info .rating-button a:hover{
+   
+    background-color: #7c8798;
+    color: #fff;
+    transition: .5s;
+}
+.rating-main .rating-btn-info .rating-button a:active{
+   
+    background-color: #fc7614;
+    color: #fff;
+    transition: .1s;
+}
+.rating-main .rating-btn-info .rating-button a:focus{
+    background-color: #fc7614;
+    color: #fff;
+    transition: .1s;
+}
+
+
+.svg-star{
+    
+   margin-left: 15px;
+   margin-top: 15px;
+    
+    
+    
+}
+.prg{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.title{
+    font-size: 24px;
+}
+.btn{
+
+    width: 75%;
+    height: 40px;
+    align-self: center;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: #fc7614;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #fc7614;
+    border: none;
+    transition: .5s;
+
+}
+
+.success{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #252d37;
+    padding: 25px 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.hide{
+    display: none;
+}
+.title-th{
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+.p-th{
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+
+
+
+
